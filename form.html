@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+
+<header>
+    <div class="logo">
+        <img src="asset/logo-itera-oke.jpg" alt="img" height="100">
+    </div>
+    <h1 class="title">
+        Pendataan Mahasiswa Institut Teknologi Sumatera Program
+    </h1>
+</header>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="nav-menu">
+                <a href="home.html">
+                    <h2>Home</h2>
+                </a>
+                <a href="#Form">
+                    <h2>Form</h2>
+                </a>
+                <a href="tabel.html">
+                    <h2>Tabel</h2>
+                </a>            
+            </div>
+        </div>
+    
+        <div class="konten">
+            <form action="tabel.html" method="GET">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" required>
+                <label for="nim">NIM</label>
+                <input type="number" id="nim" name="nim" required>
+                <label for="prodi">Program Studi</label>
+                <input type="text" id="prodi" name="prodi" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <label for="jenis_kelamin">Jenis Kelamin</label>
+                <select id="jenis_kelamin" name="jenis_kelamin" required>
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+                <label for="tanggal_lahir">Tanggal Lahir</label>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" required></textarea>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        Zikra Daffa Saputra Pemrograman Web RC IF ITERA © 2023
+    </footer>
+</body>
+</html>

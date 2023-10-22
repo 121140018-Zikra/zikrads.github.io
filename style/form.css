@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    outline: 2px solid black;
+}
+
+header .logo {
+    padding: 25px 50px;
+    margin-right: 50px;
+}
+
+header .title {
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    padding: 25px 0 0 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    outline: 2px solid black;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar .nav-menu  h2 {
+    color: black;
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 18px 10px;
+    border-radius: 8px;
+    width: 180px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow: 0 0 5px black;
+}
+
+.sidebar .nav-menu  h2:hover {
+    background-color: black;
+    color: white;
+    transition: all ease-in .1s;
+}
+
+.konten {
+    width: 100%;
+    outline: 2px solid black;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px black;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px black;
+}
+
+.submit-button {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: white;
+    transition: all ease-in .1s;
+}
